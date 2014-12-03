@@ -2,7 +2,7 @@
 
 
 @font-face {
-  font-family: 'Open Sans';
+  font-family: '<link href='http://fonts.googleapis.com/css?family=Gochi+Hand' rel='stylesheet' type='text/css'>';
   src: url('../fonts/opensans-regular-webfont.eot');
   src: url('../fonts/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'),
        url('../fonts/opensans-regular-webfont.woff') format('woff'),
@@ -13,7 +13,7 @@
 }
 
 @font-face {
-  font-family: 'Open Sans';
+  font-family: '<link href='http://fonts.googleapis.com/css?family=Gochi+Hand' rel='stylesheet' type='text/css'>';
   src: url('../fonts/opensans-italic-webfont.eot');
   src: url('../fonts/opensans-italic-webfont.eot?#iefix') format('embedded-opentype'),
        url('../fonts/opensans-italic-webfont.woff') format('woff'),
@@ -24,7 +24,7 @@
 }
 
 @font-face {
-  font-family: 'Open Sans';
+  font-family: '<link href='http://fonts.googleapis.com/css?family=Gochi+Hand' rel='stylesheet' type='text/css'>';
   src: url('../fonts/opensans-bold-webfont.eot');
   src: url('../fonts/opensans-bold-webfont.eot?#iefix') format('embedded-opentype'),
        url('../fonts/opensans-bold-webfont.woff') format('woff'),
@@ -35,7 +35,7 @@
 }
 
 @font-face {
-  font-family: 'Open Sans';
+  font-family: '<link href='http://fonts.googleapis.com/css?family=Gochi+Hand' rel='stylesheet' type='text/css'>';
   src: url('../fonts/opensans-bolditalic-webfont.eot');
   src: url('../fonts/opensans-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
        url('../fonts/opensans-bolditalic-webfont.woff') format('woff'),
@@ -46,7 +46,7 @@
 }
 
 @font-face {
-  font-family: 'Open Sans';
+  font-family: '<link href='http://fonts.googleapis.com/css?family=Gochi+Hand' rel='stylesheet' type='text/css'>';
   src: url('../fonts/opensans-extrabold-webfont.eot');
   src: url('../fonts/opensans-extrabold-webfont.eot?#iefix') format('embedded-opentype'),
        url('../fonts/opensans-extrabold-webfont.woff') format('woff'),
