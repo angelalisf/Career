@@ -27,7 +27,23 @@
 if(document.images)
 {
   var image_array = new Array();
-	
+	 var path = 'images/';
+	   image_array[0] = path + "image1.gif";
+  image_array[1] = path + "image2.gif";
+   var preload_image = new Array ();
+ 
+  for(var i=0; i<image_array.length; i++)
+  {
+    preload_image[i]= new Image();
+    preload_image[i].src = image_array[i];
+  }
+}
+function rollover(name, filename)
+{
+  document.images[name].src = filename;
+}
+</script>
+
     <title>Garbage Collector</title>
   </head>
 
@@ -66,7 +82,7 @@ if(document.images)
 <br>
 <br>
 <br>
-
+<a id="All About a Garbage Collector"></a>
 <a href="http://rogersnider.com/wp-content/uploads/2014/01/47A8250.jpg" rel="lightbox" onmouseover="rollover('button1','http://rogersnider.com/wp-content/uploads/2014/01/47A7867.jpg')" 
             onmouseout="rollover('button1','http://rogersnider.com/wp-content/uploads/2014/01/47A8250.jpg')"> 
 <img name="button1" src="http://rogersnider.com/wp-content/uploads/2014/01/47A8250.jpg"></a>
