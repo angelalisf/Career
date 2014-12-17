@@ -101,11 +101,14 @@ document.images[name].src = filename;
 <head>
 <body>
 <link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow:700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Passero+One' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Playfair+Display' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Maven+Pro:700' rel='stylesheet' type='text/css'>
 
 <style>
 h1 {
-font-family: 'Passero One', cursive;
+font-family: 'Playfair Display', serif;
 font-size: 80px;
 text-shadow: 3px 3px 3px #aaa;
 color: #FFFFFF;
@@ -119,8 +122,7 @@ font-weight: bold;
 color: #C0C0C0;
 }
 h3 {
-font-family: font-family: 'Passero One', cursive;
-margin: 0;
+font-family: 'Maven Pro', sans-serif;margin: 0;
 padding: 0 0 5px 0;
 font-size: 30px;
 font-weight: bold;
@@ -138,10 +140,22 @@ body {
   background-image: url("http://www.recyclemorenc.org/images/logo/RecycleMore_transparent_background.png");
 }
 section {
+  background-color: rgba(255, 255, 255, 0.5);;
   font-weight: bold;
-  background-color: rgba(255, 255, 255, 0.5);; 
 }
-
+p{
+    font-family: 'Open Sans', sans-serif;
+}
+a:link { color: black; }
+a:visited { color: black; }
+a:hover { color: green; }
+a:active { color: blue; }
+}
+::selection {
+    color: black; 
+    background: green;
+}
 </style>
 </head>
 </body>
+
